@@ -1,0 +1,14 @@
+{
+  "name": "methods-in-classes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "named": "node named-function.js",
+    "arrow": "node arrow-function.js",
+    "anonymous": "node anonymous-function.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
