@@ -2,6 +2,40 @@
 
 Neste open-coding nós exploramos sobre `arrow functions`, `named functions` e `anonymous functions` no javascript. Este repositório contém vários exemplos que mostram quando utilizar cada um destes tipos de funções.
 
+## Dependência
+
+Para rodar a maioria dos exemplos, você vai precisar do [Node.js](https://nodejs.org/en). A versão que eu utilizei foi a `v18.15.0`, utilize uma versão igual ou maior. Recomendo baixar o Node utilizando o [Node Virtual Manager](https://github.com/nvm-sh/nvm).
+
+## Como executar os códigos
+
+Pelo terminal acesse a pasta do exemplo que você quer executar. Por exemplo, quero acessar o exemplo `1-hoisting`, eu vou então rodar o comando:
+
+```bash
+cd src/1-hoisting
+```
+
+Perceba que dentro de cada exemplo, temos um script para cada tipo de função `arrow`, `anonymous` e `named`. Além disso, temos um arquivo `package.json` que contém alguns scripts pré definidos para facilitar rodar os códigos com o Node.js. Para cada tipo de função existe um script:
+
+**Para quem usa yarn**
+`yarn named`: roda o script que utiliza a função named.
+`yarn arrow`: roda o script que utiliza a função arrow.
+`yarn anonymous`: roda o script que utiliza a função anonymous.
+
+**Para quem usa npm**
+`npm run named`: roda o script que utiliza a função named.
+`npm run arrow`: roda o script que utiliza a função arrow.
+`npm run anonymous`: roda o script que utiliza a função anonymous.
+
+Quando quiser rodar outro item de exemplo, só voltar uma pasta e entrar no exemplo que quer acessar:
+
+```bash
+cd ../2-methods-in-object
+```
+
+## Exemplos em HTML
+
+Você pode encontrar alguns exemplos que não usam o Node.js, pois usam arquivos `.html`, como o exemplo `4-dynamic-contexts`. Para estes exemplos, basta você abrir o arquivo `html` no navegador para executar o exemplo.
+
 # Referências
 
 - [Anonymous Functions vs Named Functions vs Arrow Functions](https://dev.to/mathlete/anonymous-functions-vs-named-functions-vs-arrow-functions-57pm)
