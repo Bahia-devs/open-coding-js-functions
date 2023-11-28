@@ -40,6 +40,8 @@ Você pode encontrar alguns exemplos que não usam o Node.js, pois usam arquivos
 
 # Referências
 
+Aqui estão vários artigos importantes para você entender mais sobre as diferenças entre estas funções e quando utilizá-las. Além disso, você consegue encontrar vários outros assuntos relacionados. Acessem esses links, leiam, coloquem em prática para entender como que essas coisas funcionam.
+
 - [Anonymous Functions vs Named Functions vs Arrow Functions](https://dev.to/mathlete/anonymous-functions-vs-named-functions-vs-arrow-functions-57pm)
 - [When 'Not' to Use Arrow Functions](https://dmitripavlutin.com/when-not-to-use-arrow-functions-in-javascript/)
 - [5 Differences Between Arrow and Regular Functions](https://dmitripavlutin.com/differences-between-arrow-and-regular-functions/)
