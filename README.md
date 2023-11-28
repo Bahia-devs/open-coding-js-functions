@@ -17,14 +17,16 @@ cd src/1-hoisting
 Perceba que dentro de cada exemplo, temos um script para cada tipo de função `arrow`, `anonymous` e `named`. Além disso, temos um arquivo `package.json` que contém alguns scripts pré definidos para facilitar rodar os códigos com o Node.js. Para cada tipo de função existe um script:
 
 **Para quem usa yarn**
-`yarn named`: roda o script que utiliza a função named.
-`yarn arrow`: roda o script que utiliza a função arrow.
-`yarn anonymous`: roda o script que utiliza a função anonymous.
+
+- `yarn named`: roda o script que utiliza a função named.
+- `yarn arrow`: roda o script que utiliza a função arrow.
+- `yarn anonymous`: roda o script que utiliza a função anonymous.
 
 **Para quem usa npm**
-`npm run named`: roda o script que utiliza a função named.
-`npm run arrow`: roda o script que utiliza a função arrow.
-`npm run anonymous`: roda o script que utiliza a função anonymous.
+
+- `npm run named`: roda o script que utiliza a função named.
+- `npm run arrow`: roda o script que utiliza a função arrow.
+- `npm run anonymous`: roda o script que utiliza a função anonymous.
 
 Quando quiser rodar outro item de exemplo, só voltar uma pasta e entrar no exemplo que quer acessar:
 
